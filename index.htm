@@ -20,7 +20,7 @@
     <Header>
         <!-- Navbar Start  -->
         <section>
-            <div class=" shadow p-2 container bg-body-secondary">
+            <div class=" shadow p-2 container bg-light fixed-top">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
@@ -34,9 +34,9 @@
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                <a class="nav-link" href="#">Shoes</a>
-                                <a class="nav-link" href="#">Backpack</a>
-                                <a class="nav-link" href="#">Subscribe</a>
+                                <a class="nav-link" href="#shoes">Shoes</a>
+                                <a class="nav-link" href="#backpack">Backpack</a>
+                                <a class="nav-link" href="#subscribe">Subscribe</a>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
         </section>
         <!-- Navbar end -->
         <!-- Slider start  -->
-        <section class="my-5">
+        <section class="margin-t">
             <div class="container">
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
@@ -123,7 +123,7 @@
     <!-- Main Part Here  -->
     <main>
         <!-- categories start  -->
-        <section class="my-5">
+        <section class="margin-t">
             <div class="container text-center">
                 <div class="row g-2">
                     <div class="col-lg-4 col-md-6 col-12">
@@ -151,7 +151,7 @@
         </section>
         <!-- catagories end -->
         <!-- Shoes Section Start  -->
-        <section class="margin-t">
+        <section class="margin-t" id="shoes">
             <div class="container">
                 <h1>Shoes</h1>
                 <div class="row row-cols-1 row-cols-md-3 row-cols-md-2 g-5">
@@ -211,7 +211,7 @@
         </section>
         <!-- Shoes Section end -->
         <!-- Bags Section Start  -->
-        <section class="margin-t mb-5">
+        <section class="margin-t" id="backpack">
             <div class="container">
                 <h1>Backpack</h1>
                 <div class="row row-cols-1 row-cols-md-3 row-cols-md-2 g-5">
@@ -270,8 +270,28 @@
                 </div>
             </div>
         </section>
-        <!-- Bags Section Start  -->
+        <!-- Bags Section End  -->
+        <!-- Subscribe Setction start -->
+        <section style="height: 300px;"
+            class="margin-t container mb-5 d-flex justify-content-center align-items-center rounded-3 banner-bg"
+            id="subscribe">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <form>
+                    <div class="mb-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn button-bg text-white">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Subscribe Setction end -->
     </main>
+
+    <footer class="margin-t text-center">
+        <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
     <script src="bootstrap/bootstrap.min.js"></script>
 </body>
